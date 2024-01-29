@@ -16,6 +16,7 @@
 		428B51A02B62B0C500CD311E /* _dayWeatherAppHusebyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428B519F2B62B0C500CD311E /* _dayWeatherAppHusebyTests.swift */; };
 		428B51AA2B62B0C500CD311E /* _dayWeatherAppHusebyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428B51A92B62B0C500CD311E /* _dayWeatherAppHusebyUITests.swift */; };
 		428B51AC2B62B0C500CD311E /* _dayWeatherAppHusebyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428B51AB2B62B0C500CD311E /* _dayWeatherAppHusebyUITestsLaunchTests.swift */; };
+		42C724952B6494EB00A17592 /* ViewControllerDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C724942B6494EB00A17592 /* ViewControllerDay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		428B51A52B62B0C500CD311E /* 5dayWeatherAppHusebyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 5dayWeatherAppHusebyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		428B51A92B62B0C500CD311E /* _dayWeatherAppHusebyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _dayWeatherAppHusebyUITests.swift; sourceTree = "<group>"; };
 		428B51AB2B62B0C500CD311E /* _dayWeatherAppHusebyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _dayWeatherAppHusebyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42C724902B6494AF00A17592 /* 5dayWeatherAppHuseby-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "5dayWeatherAppHuseby-Bridging-Header.h"; sourceTree = "<group>"; };
+		42C724942B6494EB00A17592 /* ViewControllerDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 				428B519E2B62B0C500CD311E /* 5dayWeatherAppHusebyTests */,
 				428B51A82B62B0C500CD311E /* 5dayWeatherAppHusebyUITests */,
 				428B51862B62B0C400CD311E /* Products */,
+				42C724902B6494AF00A17592 /* 5dayWeatherAppHuseby-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +106,7 @@
 				428B51882B62B0C400CD311E /* AppDelegate.swift */,
 				428B518A2B62B0C400CD311E /* SceneDelegate.swift */,
 				428B518C2B62B0C400CD311E /* ViewController.swift */,
+				42C724942B6494EB00A17592 /* ViewControllerDay.swift */,
 				428B518E2B62B0C400CD311E /* Main.storyboard */,
 				428B51912B62B0C500CD311E /* Assets.xcassets */,
 				428B51932B62B0C500CD311E /* LaunchScreen.storyboard */,
@@ -195,6 +200,7 @@
 				TargetAttributes = {
 					428B51842B62B0C400CD311E = {
 						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1520;
 					};
 					428B519A2B62B0C500CD311E = {
 						CreatedOnToolsVersion = 15.1;
@@ -261,6 +267,7 @@
 				428B518D2B62B0C400CD311E /* ViewController.swift in Sources */,
 				428B51892B62B0C400CD311E /* AppDelegate.swift in Sources */,
 				428B518B2B62B0C400CD311E /* SceneDelegate.swift in Sources */,
+				42C724952B6494EB00A17592 /* ViewControllerDay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G622X5326J;
@@ -458,6 +466,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "clc.-dayWeatherAppHuseby";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "5dayWeatherAppHuseby-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G622X5326J;
@@ -486,6 +497,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "clc.-dayWeatherAppHuseby";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "5dayWeatherAppHuseby-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
